@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>more</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+<style>
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  height: 570px;
+  margin-top: 151px;
+border-radius: 10px;
+
+}
+
+/* Fake image */
+.fakeimg,img {
+  width: 100%;
+  padding: 0;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.card_R{
+    border: 5px solid #F1EBEB;
+box-sizing: border-box;
+border-radius: 10px;
+  padding: 16px;
+  margin: 16px;
+  height: 500px;
+  
+}
+.card_R .submit_R{
+    margin-top: 100px;
+}
+
+
+
+.card_R1{
+
+box-sizing: border-box;
+border-radius: 10px;
+  padding: 16px;
+  margin: 16px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.submit_R{
+    left: 20%;
+    background-color:#F84E4E;
+    border: none;
+    line-height: 5px;
+    font-size: 17px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 15px ;
+    border-radius: 3px;
+    color: #fefbff;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+
+<body>
+
+<!-- navbar -->
+<!-- navbar -->
+<div class="topnav">
+        <a href="index.html">NYETOKIN</a>
+        <a style="float:right" href="#">Pricing</a>
+        <a style="float:right" href="#">Sign in</a>
+        <a style="float:right" href="form.html">Join</a>
+        
+        <div class="search-container">
+    
+                <form action="/more.html">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+        
+          </div>
+          
+    
+    <!-- end navbar -->
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Digital Sketch Photoshop Action</h2>
+      <h5>All items / Add-ons / Actions And Presets</h5>
+      <div class="fakeimg" ><img src="img/13.png" alt=""></div>
+      <p><strong>Lorem ipsum dolor sit amet</strong></p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam debitis totam incidunt beatae itaque neque perspiciatis optio laudantium, quaerat officia natus est inventore officiis ducimus! Deserunt tempora earum quo molestias!</p>
+    </div>
+    <!-- <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div> -->
+  </div>
+  <div class="rightcolumn">
+    <div class="card_R">
+      <h2><i class="fa fa-bookmark-o" style="color:#7F5BE9;" aria-hidden="true"></i></h2>
+      <p  style="text-align: center;">I am 1 of 1,400,000 beautiful design, web and stock assets!</p>
+      <input class="submit_R" type="submit" value="Download for Free">
+    </div>
+    <div class="card_R1">
+        <h3>Applications Supported</h3>
+    <p>adobe illustration</p>
+        <h3>Applications Supported</h3>
+    <p>adobe illustration</p>
+        <h3>Applications Supported</h3>
+    <p>adobe illustration</p>
+    </div>
+    <!-- <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div> -->
+  </div>
+</div>
+
+<div class="footer">
+  <h2>NYETOKIN</h2>
+</div>
+
+</body>
+</html>
